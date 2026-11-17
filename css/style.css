@@ -21,8 +21,10 @@ html {
 }
 
 
+
 body {
-  background:
+  background-color: var(--bg);
+  background-image:
     radial-gradient(
       ellipse at 50% 20%,
       rgba(59, 130, 246, 0.16),
@@ -32,12 +34,6 @@ body {
       ellipse at 85% 65%,
       rgba(30, 64, 175, 0.12),
       transparent 45%
-    ),
-    linear-gradient(
-      180deg,
-      #111827 0%,
-      #17243a 45%,
-      #111827 100%
     );
 
   background-attachment: fixed;
@@ -48,6 +44,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
+
 
 
 a {
@@ -741,5 +738,31 @@ header nav > a:hover {
   filter: blur(40px);
   z-index: -1;
   pointer-events: none;
+}
+
+
+/* LIGHT THEME */
+
+body.light-theme {
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --text: #172033;
+  --muted: #64748b;
+  --accent: #2563eb;
+  --border: #dce3ed;
+
+  background-color: var(--bg);
+
+  background-image:
+    radial-gradient(
+      ellipse at 50% 20%,
+      rgba(59, 130, 246, 0.10),
+      transparent 45%
+    ),
+    radial-gradient(
+      ellipse at 85% 65%,
+      rgba(147, 197, 253, 0.12),
+      transparent 45%
+    );
 }
 
