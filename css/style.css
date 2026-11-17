@@ -804,4 +804,11 @@ body.light-theme {
   display: block;
 }
 
+.social-links svg {
+  width: 24px;
+  height: 24px;
+  display: block;
+  fill: currentColor;
+}
+
 
