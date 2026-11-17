@@ -831,8 +831,8 @@ footer {
 }
 
 .footer-socials a {
-  color: var(--muted);
   display: flex;
+  color: var(--muted);
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -842,15 +842,8 @@ footer {
 }
 
 .footer-socials svg {
-  width: 20px;
-  height: 20px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
 }
-
-@media (max-width: 600px) {
-  footer {
-    flex-direction: column;
-    text-align: center;
-    padding: 25px 15px;
-  }
-}
-
