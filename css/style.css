@@ -316,3 +316,31 @@ footer a:hover {
   font-size: 14px;
   font-weight: 600;
 }
+
+
+/* SOCIAL ICONS */
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 30px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+  color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.social-links svg {
+  width: 23px;
+  height: 23px;
+}
