@@ -344,3 +344,30 @@ footer a:hover {
   width: 23px;
   height: 23px;
 }
+
+
+/* LIGHT THEME */
+
+body.light-theme {
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --text: #172033;
+  --muted: #64748b;
+  --accent: #2563eb;
+  --border: #dce3ed;
+}
+
+#theme-toggle {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#theme-toggle svg {
+  width: 18px;
+  height: 18px;
+}
