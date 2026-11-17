@@ -559,4 +559,18 @@ footer {
   }
 }
 
+header,
+footer {
+  justify-content: center;
+  text-align: center;
+}
+
+header nav {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer {
+  flex-wrap: wrap;
+}
 
