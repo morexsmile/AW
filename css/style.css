@@ -1,15 +1,13 @@
 
-/* =========================
-   AGNIESZKA WILMONT PORTFOLIO
-   ========================= */
+/* AGNIESZKA WILMONT PORTFOLIO */
 
 :root {
-  --bg: #0b0f19;
-  --surface: #141c2b;
-  --text: #f5f7fb;
-  --muted: #a2aec0;
-  --accent: #3b82f6;
-  --border: #263247;
+  --bg: #111827;
+  --surface: #1b2638;
+  --text: #f1f5f9;
+  --muted: #a8b5c7;
+  --accent: #4f8cff;
+  --border: #334155;
 }
 
 * {
