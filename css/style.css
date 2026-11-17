@@ -20,12 +20,35 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
-  background: var(--bg);
+  background:
+    radial-gradient(
+      ellipse at 50% 20%,
+      rgba(59, 130, 246, 0.16),
+      transparent 40%
+    ),
+    radial-gradient(
+      ellipse at 85% 65%,
+      rgba(30, 64, 175, 0.12),
+      transparent 45%
+    ),
+    linear-gradient(
+      180deg,
+      #111827 0%,
+      #17243a 45%,
+      #111827 100%
+    );
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   color: var(--text);
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
+
 
 a {
   color: inherit;
@@ -661,5 +684,62 @@ header nav > a:hover {
   #language-select {
     margin-left: 0;
   }
+}
+
+
+/* SOFT BLUE GLOW IN HERO */
+
+.hero {
+  position: relative;
+  isolation: isolate;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    circle,
+    rgba(59, 130, 246, 0.13),
+    transparent 70%
+  );
+  filter: blur(35px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+
+
+/* SECTION AMBIENT LIGHT */
+
+#projects {
+  position: relative;
+}
+
+#contact {
+  position: relative;
+  isolation: isolate;
+}
+
+#contact::before {
+  content: "";
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: radial-gradient(
+    ellipse,
+    rgba(59, 130, 246, 0.10),
+    transparent 70%
+  );
+  filter: blur(40px);
+  z-index: -1;
+  pointer-events: none;
 }
 
