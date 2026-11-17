@@ -517,3 +517,46 @@ body.light-theme {
   display: block;
 }
 
+
+/* HEADER ALIGNMENT */
+
+header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+/* FOOTER ALIGNMENT */
+
+footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 600px) {
+  header,
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
