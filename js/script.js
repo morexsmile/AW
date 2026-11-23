@@ -23,50 +23,53 @@ if (themeToggle) {
 // LANGUAGE TRANSLATIONS
 
 const translations = {
-  en: {
-    navProjects: "Projects",
-    navContact: "Contact",
-    heroRole: "Frontend Developer",
-    heroDescription:
-      "A creative and detail-oriented Frontend Developer passionate about building digital experiences.",
-    heroButton: "Explore my work ↗",
-    projectsTitle: "My Projects",
-    contactTitle: "Let's work together",
-    contactName: "Your name",
-    contactEmail: "Your email",
-    contactMessage: "Your message",
-    contactSend: "Send message"
-  },
+en: {
+  navProjects: "Projects",
+  navContact: "Contact",
+  heroRole: "Frontend Developer",
+  heroDescription:
+    "A creative and detail-oriented Frontend Developer passionate about building digital experiences.",
+  heroButton: "Explore my work ↗",
+  projectsTitle: "My Projects",
+  contactTitle: "Let's work together",
+  contactName: "Your name",
+  contactEmail: "Your email",
+  contactMessage: "Your message",
+  contactSend: "Send message",
+  viewProject: "View project ↗"
+},
 
-  pl: {
-    navProjects: "Projekty",
-    navContact: "Kontakt",
-    heroRole: "Frontend Developer",
-    heroDescription:
-      "Frontend Developer, pasjonująca się tworzeniem cyfrowych doświadczeń.",
-    heroButton: "Zobacz moje projekty ↗",
-    projectsTitle: "Moje projekty",
-    contactTitle: "Napisz do mnie",
-    contactName: "Twoje imię",
-    contactEmail: "Twój adres e-mail",
-    contactMessage: "Twoja wiadomość",
-    contactSend: "Wyślij wiadomość"
-  },
+pl: {
+  navProjects: "Projekty",
+  navContact: "Kontakt",
+  heroRole: "Frontend Developer",
+  heroDescription:
+    "Frontend Developer, pasjonująca się tworzeniem cyfrowych doświadczeń.",
+  heroButton: "Zobacz moje projekty ↗",
+  projectsTitle: "Moje projekty",
+  contactTitle: "Napisz do mnie",
+  contactName: "Twoje imię",
+  contactEmail: "Twój adres e-mail",
+  contactMessage: "Twoja wiadomość",
+  contactSend: "Wyślij wiadomość",
+  viewProject: "Zobacz projekt ↗"
+},
 
-  es: {
-    navProjects: "Proyectos",
-    navContact: "Contacto",
-    heroRole: "Frontend Developer",
-    heroDescription:
-      "Desarrolladora Frontend, apasionada por crear experiencias digitales.",
-    heroButton: "Ver mis proyectos ↗",
-    projectsTitle: "Mis Proyectos",
-    contactTitle: "Contacta conmigo",
-    contactName: "Tu nombre",
-    contactEmail: "Tu correo electrónico",
-    contactMessage: "Tu mensaje",
-    contactSend: "Enviar mensaje"
-  }
+es: {
+  navProjects: "Proyectos",
+  navContact: "Contacto",
+  heroRole: "Frontend Developer",
+  heroDescription:
+    "Desarrolladora Frontend, apasionada por crear experiencias digitales.",
+  heroButton: "Ver mis proyectos ↗",
+  projectsTitle: "Mis Proyectos",
+  contactTitle: "Contacta conmigo",
+  contactName: "Tu nombre",
+  contactEmail: "Tu correo electrónico",
+  contactMessage: "Tu mensaje",
+  contactSend: "Enviar mensaje",
+  viewProject: "Ver proyecto ↗"
+}
 };
 
 function changeLanguage(language) {
